@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(37, 35, 39);
+  color: beige;
+}
+
+.card {
+  background-image: url(./img/background-card.png);
+}
+
+.list-group-item {
+  background-color: black;
+  opacity: 90%;
+  color: bisque;
+}
+
+.img {
+  max-width: 286px;
+  max-height: 286px;
+  object-fit: fill;
+}
