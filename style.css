@@ -7,6 +7,16 @@ body {
   background-image: url(./img/background-card.png);
 }
 
+.card-body {
+  background-color: black;
+  color: bisque;
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(87, 168, 123);
+}
+
 .list-group-item {
   background-color: black;
   opacity: 90%;
@@ -17,4 +27,8 @@ body {
   max-width: 286px;
   max-height: 286px;
   object-fit: fill;
+}
+
+.col {
+  max-width: fit-content;
 }
